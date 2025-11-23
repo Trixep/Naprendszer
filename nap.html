@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>A Nap</title>
+</head>
+<body class="nap">
+    <div class="load">
+        <div class="rocket">
+            <img src="img/rocket.png" alt="rocket" id="rocket">
+        </div>
+        <div class="wavy">
+            <span style="--i:1;">l</span>
+            <span style="--i:2;">o</span>
+            <span style="--i:3;">a</span>
+            <span style="--i:4;">d</span>
+            <span style="--i:5;">i</span>
+            <span style="--i:6;">n</span>
+            <span style="--i:7;">g</span>
+            <span style="--i:8;">.</span>
+            <span style="--i:9;">.</span>
+            <span style="--i:10;">.</span>
+          </div>
+    </div>
+    <div class="transition transition-1 is-active"></div>
+    <button onclick="topFunction()" id="TopBtn"><span class="full">A lap tetejére</span>
+    <span class="short"><img src="img/up_arrow.png" alt="nyíl_fel"></span></button>
+    <header>
+        <a href="trixep11.html" class="logo">trixep11</a>
+        <div class="close">
+            <div class="ikon"></div>
+            <ul class="navigacio">
+                <li><a href="index.html">Főoldal</a></li>
+                <li><a href="nap.html" class="active">A Nap</a></li>
+                <li><div class="dropdown">
+                    <button class="dropbtn" onclick="myFunction()">Bolygóink</button>
+                    <div class="dropdown-content">
+                        <a href="merkur.html" class="first">Merkúr</a>
+                        <a href="venusz.html">Vénusz</a>
+                        <a href="fold.html">Föld</a>
+                        <a href="mars.html">Mars</a>
+                        <a href="jupiter.html">Jupiter</a>
+                        <a href="szaturnusz.html">Szaturnusz</a>
+                        <a href="uranusz.html">Uránusz</a>
+                        <a href="neptunusz.html" class="last">Neptunusz</a>
+                    </div>
+                </div></li>
+            </ul>
+        </div>
+    </header>
+    <div class="img-slider">
+        <div class="slide active1">
+          <img src="img/bolygok/sun1.png" alt="">
+        </div>
+        <div class="slide">
+          <img src="img/bolygok/sun2.png" alt="">
+        </div>
+        <div class="slide">
+          <img src="img/bolygok/sun3.png" alt="">
+        </div>
+        <div class="slide">
+          <img src="img/bolygok/sun4.png" alt="">
+        </div>
+        <div class="slide">
+          <img src="img/bolygok/sun5.png" alt="">
+        </div>
+        <div class="navigation">
+          <div class="btn active1"></div>
+          <div class="btn"></div>
+          <div class="btn"></div>
+          <div class="btn"></div>
+          <div class="btn"></div>
+        </div>
+    </div>
+    <div class="sec2">
+        <h2>A Nap keletkezése, fejlődése</h2>
+        <div class="dobozok">
+            <img src="img/bolygok/nap.png" alt="nap" class="ballrol">
+            <div class="jobbrol padding">
+                <div class="szovegdoboz">
+                    <p>A Nap 4,6 milliárd évvel ezelőtt (az Univerzum ma ismert korának kétharmadánál) született, harmadik generációs csillag.
+                        Sajnos megfigyeléseken alapuló, kísérletileg bizonyított keletkezési modellel még nem rendelkezik a csillagászat, így csak elméletek állnak rendelkezésre.
+                        A ma legelfogadottabbnak tekintett keletkezési modell szerint Napunk születési helye egy molekulafelhő volt, egy gázzal és kozmikus porral teli, 
+                        instabil térség, amelyben valamilyen okból – a legvalószínűbb forgatókönyv szerint egy közeli szupernóva robbanásának hatására – felborult az egyensúly, 
+                        és egy Naprendszer méretű anyagcsomó a saját tömegétől összeomlott; az anyag elkezdett összehúzódni egész addig, míg létre nem jött belőle a proto-Nap.</p>
+                </div>
+            </div>
+        </div>
+        <div class="dobozok">
+            <div class="lentrol padding">
+                <div class="szovegdoboz">
+                    <p>A csillagkezdemény anyaga még tovább sűrűsödött, majd néhány millió év alatt beindult a belsejében a magfúzió és megszületett a Nap.
+                        A beinduló magfúzió hatására a napszél is elkezdte áramlását és kifújta a maradék gázt a Nap környezetéből.</p>
+                </div>
+            </div>
+        </div>
+        <h2>Forgása és működése</h2>
+        <div class="dobozok">
+            <div class="ballrol padding">
+                <div class="szovegdoboz">
+                    <p>Kezdetben csillagunk gyorsan forgott a saját tengelye körül, mivel a molekulafelhő teljes perdülete benne maradt fenn, később azonban lassult a forgás, 
+                        nagyobbrészt a kialakuló bolygórendszernek átadott impulzusmomentum, kisebb részt a napszél folyamatos, szintén impulzusmomentum „elszívó” hatása miatt.
+                        A Nap sugárzása is fejlődést mutat, születésekor a mainak mintegy 70%-a volt a kibocsátott sugárzás mértéke, 
+                        amely milliárd éves időskálán folyamatosan növekszik, amíg csillagunk ún. fősorozati csillag marad.</p>
+                </div>
+            </div>
+            <img src="img/bolygok/nap2.jpg" alt="nap2" class="jobbrol">
+        </div>
+        <div class="dobozok">
+            <img src="img/bolygok/napbelul.jpg" alt="nap_belseje" class="ballrol">
+            <div class="jobbrol padding">
+                <div class="szovegdoboz">
+                    <p>A Nap az életpályája során a legtöbb időt a fősorozatban tölti el, ez csillagunk életpályájának aktív részét jelenti, 
+                        amíg a hidrogénkészletét a magfúziós folyamatok héliummá alakítják, modellszámítások szerint ennek a szakasznak a felénél tartunk napjainkban.
+                        Az elkövetkező 1 milliárd évben a Nap fényessége és külső hőmérséklete tovább növekszik.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="waves">
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+            <div class="wave" id="wave4"></div>
+        </div>
+        <a href="trixep11.html">trixep11</a>
+        <ul>
+            <li><a href="index.html">Főoldal</a></li>
+            <li><a href="nap.html">A Nap</a></li>
+            <li><a href="bolygok.html">Bolygóink</a></li>
+        </ul>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="szkript.js"></script>
+</body>
+</html>

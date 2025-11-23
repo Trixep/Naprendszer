@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <title>Vénusz</title>
+</head>
+<body class="planets">
+  <div class="load">
+    <div class="rocket">
+      <img src="img/rocket.png" alt="rocket" id="rocket">
+    </div>
+    <div class="wavy">
+      <span style="--i:1;">l</span>
+      <span style="--i:2;">o</span>
+      <span style="--i:3;">a</span>
+      <span style="--i:4;">d</span>
+      <span style="--i:5;">i</span>
+      <span style="--i:6;">n</span>
+      <span style="--i:7;">g</span>
+      <span style="--i:8;">.</span>
+      <span style="--i:9;">.</span>
+      <span style="--i:10;">.</span>
+    </div>
+  </div>
+  <div class="transition transition-1 is-active"></div>
+  <button onclick="topFunction()" id="TopBtn"><span class="full">A lap tetejére</span>
+  <span class="short"><img src="img/up_arrow.png" alt="nyíl_fel"></span></button>
+  <header>
+    <a href="trixep11.html" class="logo">trixep11</a>
+    <div class="close">
+      <div class="ikon"></div>
+      <ul class="navigacio">
+        <li><a href="index.html">Főoldal</a></li>
+        <li><a href="nap.html">A Nap</a></li>
+        <li><div class="dropdown">
+          <button class="dropbtn" onclick="myFunction()">Bolygóink</button>
+          <div class="dropdown-content">
+            <a href="merkur.html" class="first">Merkúr</a>
+            <a href="venusz.html" class="dropactive">Vénusz</a>
+            <a href="fold.html">Föld</a>
+            <a href="mars.html">Mars</a>
+            <a href="jupiter.html">Jupiter</a>
+            <a href="szaturnusz.html">Szaturnusz</a>
+            <a href="uranusz.html">Uránusz</a>
+            <a href="neptunusz.html" class="last">Neptunusz</a>
+          </div>
+        </div></li>
+      </ul>
+    </div>
+  </header>
+  <section id="sectionone" class="screen">
+    <div id="scene">
+      <div data-depth="0.1" class="bg">
+        <img src="img/background.jpg" alt="háttér">
+      </div>
+      <div data-depth="0.2" class="rock1">
+        <img src="img/rock.png" alt="">
+      </div>
+      <div data-depth="1.2" class="bolygo">
+        <img src="img/bolygok/venusrajz.png" alt="bolygó">
+      </div>
+      <div data-depth="0.1" class="text">
+        <h1>vénusz</h1>
+      </div>
+      <div data-depth="0.4" class="mid">
+        <img src="img/mid.png" alt="közép_kép">
+      </div>
+      <div data-depth="0.1" class="fore">
+        <img src="img/foreground.png" alt="oldal_kép">
+      </div>
+    </div>
+  </section>
+  <div class="sec3">
+    <h2>A második bolygó, Vénusz</h2>
+    <div class="dobozok">
+      <img src="img/bolygok/venusz.jpeg" alt="venusz" class="ballrol">
+      <p class="jobbrol">A legfényesebb égitestek közé tartozik, csupán a Nap és a Hold látszólagos fényessége múlja felül az övét.
+        Maximális fényessége idején mintegy tizenötször fényesebb a legfényesebb csillagnál a Szíriusznál.
+        Derült, Hold nélküli éjszakán a Vénuszt eltakaró tárgyak árnyékot vethetnek.
+        Az a megfigyelő, aki tudja, hogy melyik irányban pillanthatja meg a bolygót, fényes nappal, szabad szemmel is észreveheti.
+        Amikor legközelebb van a Földhöz, minden más bolygónál közelebb jut hozzánk, "alig" 42 millió kilométerre haladva el mellettünk.</p>
+    </div>
+    <h2>Keringése és forgása</h2>
+    <div class="dobozok">
+      <p class="lentrol">A bolygó forgása nem direkt, mint a többi bolygótársáé, hanem éppen azzal ellentétes (retrográd).
+        Mivel a bolygó felszínének egyetlen alakzatát sem vehetjük észre az égitestet burkoló, látszólag sűrű felhőtakaró miatt, a Vénusz tengelyforgási periódusát a bolygó 
+        felszínéről visszaverődött radarjelek elemzésével határozták meg, amely radarvisszhangok Vénusz-hegyekről és Vénusz-völgyekről is hírt adtak.
+        A Vénusz mágneses tere rendkívül gyenge, amiben bizonyára szerepet játszik a nagyon lassú 243 földi napig tartó retrográd tengelyforgása.
+        Az összes bolygópályák közül a Vénuszé hasonlít legjobban a körhöz.</p>
+    </div>
+    <h2>Felszíne</h2>
+    <div class="dobozok">
+      <p class="ballrol">Az első Vénusz mellett elrepülő űrszonda a Mariner-2 volt 1962-ben.
+        A később bolygókörüli pályára állított Pioneer, Venyera és Magellán űrszondák, valamint földi rádiótávcsövek révén az égitestet radarral feltérképezték.
+        A Pioneer adatai szerint a felszín 70%-át hullámzó dombokkal borított síkságok, 20%-át jól elkülönülő lesüllyedt mélyföldek, 
+        10%-át nagyrészt 4 - 5 kilométerrel a felszín átlagos magassága fölé emelkedő magasföldi "kontinensek" alkotják.</p>
+      <img src="img/bolygok/venusz_felszine.jpg" alt="felszín" class="jobbrol">
+    </div>
+    <h2>Légköre</h2>
+    <div class="dobozok">
+      <p class="ballrol csakszoveg">A Vénuszból az alsó együttállás közelében csak egy nagyon keskeny sarló látszik. 
+        Alig észrevehetően a sarló szarvacskái összezárulnak a bolygó körül, ami azt bizonyítja, 
+        hogy a bolygónak számottevő légköre van, s ennek a részecskéin szóródott napfényt látjuk a sarló végei között.<br><br>
+        
+        Légkörének fő alkotórésze a szén-dioxid, a teljes légkör több mint 96%-a. A légkör nyomása a földiének 90-szerese.
+        A légkörét adó szén-dioxid régen hatalmas mennyiségben áradt a kitörő vulkánokból.
+        A Vénusz vulkánikusan ma is aktív, és a kéreg alól hő távozik a vulkánokon keresztül, 
+        amelyek a légkörbe hatalmas mennyiségű kén-dioxidot pöfögnek ki, amelyből kénsavfelhők képződnek.</p>
+      <p class="jobbrol csakszoveg">A Vénusz felhőrétege a felszín felett 20 km magasságban kezdődik és 30 km vastag.
+        A pólus és a Naptól több hőt kapó egyenlítői vidék közötti hőmérsékletkülönbség cirkuláló szélrendszert tart fenn.
+        A bolygó és a légkör között bonyolult kémiai reakciók hozták létre a kénsavfelhőket, melyekből kénsavas eső hullik a légkör felső rétegeiben.<br><br>
+        
+        Sok csillagász szerint sokkal régebben volt víz a Vénusz felszínén, de a Nap növekvő fényereje miatt megemelkedett hőmérséklet elég volt hozzá, 
+        hogy megkezdődjék az óceánok fokozatos párolgása, ami viszont a légkörben növelte meg a vízgőz mennyiségét.
+        Mivel a vízgőz jól abszorbeálja az infravörös sugárzást az üvegházhatás fokozódott, ami tovább növelte a hőmérsékletet és gyorsította a párolgást.</p>
+    </div>
+    <h2>Esthajnalcsillag</h2>
+    <div class="dobozok">
+      <img src="img/bolygok/esthajnal1.jpg" alt="esthajnalcsillag1" class="ballrol">
+      <p class="jobbrol">A Vénusz a Merkúrhoz hasonlóan belső bolygó, és úgy tűnik számunkra, hogy az egyik kitérésből a másikba megy át a Nap körüli keringése során.
+        Hol esti Csillagként, hol Hajnalcsillagként ötlik szemünkbe. 
+        Nem véletlenül hívta a népnyelv Esthajnalcsillagnak.
+        Egyes ókori csillagászok úgy vélték, hogy két különböző égitestet látnak a Nap keleti illetve a nyugati oldalán. 
+        A hajnalban látható Vénuszt fényhozónak, Phoszporosznak, az alkonyatit pedig Atlasz fiáról Heszperosznak nevezték. 
+        Püthagorasz görög filozófus és matematikus ismerte föl elsőként, hogy Phoszporosz és Heszperosz ugyanaz az égitest.</p>
+    </div>
+    <div class="dobozok">
+      <p class="ballrol">A Vénusznak nincs holdja. Hold hiányában tömegét csak egyéb égitestekre való gravitációs hatása révén tudjuk meghatározni.
+        A bolygónak mind tömege, mind mérete, mind pedig átlagos sűrűsége nagyon közel áll a Földre jellemző értékekhez, 
+        gyakran nevezik ezt az égitestet "bolygótestvérünknek" vagy "bolygónővérünknek".
+        A Vénuszt állandóan elfedi előlünk sűrű felhőtakarója. A Hold és a Merkúr sötét színű, felszínével szemben a Vénusz a 
+        ráeső fény mintegy háromnegyedét visszaveri. A "bolygótestvéri" kapcsolat ellenére felszíne sokkal barátságtalanabb, mint a Földé.</p>
+      <img src="img/bolygok/esthajnal2.jpg" alt="esthajnalcsillag2" class="jobbrol">
+    </div>
+  </div>
+  <footer>
+    <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+    </div>
+    <a href="trixep11.html">trixep11</a>
+    <ul>
+        <li><a href="index.html">Főoldal</a></li>
+        <li><a href="nap.html">A Nap</a></li>
+        <li><a href="bolygok.html">Bolygóink</a></li>
+    </ul>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="szkript.js"></script>
+</body>
+</html>

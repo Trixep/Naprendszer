@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <title>Mars</title>
+</head>
+<body class="planets">
+  <div class="load">
+    <div class="rocket">
+      <img src="img/rocket.png" alt="rocket" id="rocket">
+    </div>
+    <div class="wavy">
+      <span style="--i:1;">l</span>
+      <span style="--i:2;">o</span>
+      <span style="--i:3;">a</span>
+      <span style="--i:4;">d</span>
+      <span style="--i:5;">i</span>
+      <span style="--i:6;">n</span>
+      <span style="--i:7;">g</span>
+      <span style="--i:8;">.</span>
+      <span style="--i:9;">.</span>
+      <span style="--i:10;">.</span>
+    </div>
+  </div>
+  <div class="transition transition-1 is-active"></div>
+  <button onclick="topFunction()" id="TopBtn"><span class="full">A lap tetejére</span>
+  <span class="short"><img src="img/up_arrow.png" alt="nyíl_fel"></span></button>
+  <header>
+    <a href="trixep11.html" class="logo">trixep11</a>
+    <div class="close">
+      <div class="ikon"></div>
+      <ul class="navigacio">
+        <li><a href="index.html">Főoldal</a></li>
+        <li><a href="nap.html">A Nap</a></li>
+        <li><div class="dropdown">
+          <button class="dropbtn" onclick="myFunction()">Bolygóink</button>
+          <div class="dropdown-content">
+            <a href="merkur.html" class="first">Merkúr</a>
+            <a href="venusz.html">Vénusz</a>
+            <a href="fold.html">Föld</a>
+            <a href="mars.html" class="dropactive">Mars</a>
+            <a href="jupiter.html">Jupiter</a>
+            <a href="szaturnusz.html">Szaturnusz</a>
+            <a href="uranusz.html">Uránusz</a>
+            <a href="neptunusz.html" class="last">Neptunusz</a>
+          </div>
+        </div></li>
+      </ul>
+    </div>
+  </header>
+  <section id="sectionone" class="screen">
+    <div id="scene">
+      <div data-depth="0.1" class="bg">
+        <img src="img/background.jpg" alt="háttér">
+      </div>
+      <div data-depth="0.2" class="rock1">
+        <img src="img/rock.png" alt="">
+      </div>
+      <div data-depth="1.2" class="bolygo">
+        <img src="img/bolygok/marsrajz.png" alt="bolygó">
+      </div>
+      <div data-depth="0.1" class="text">
+        <h1>mars</h1>
+      </div>
+      <div data-depth="0.4" class="mid">
+        <img src="img/mid.png" alt="közép_kép">
+      </div>
+      <div data-depth="0.1" class="fore">
+        <img src="img/foreground.png" alt="oldal_kép">
+      </div>
+    </div>
+  </section>
+  <div class="sec3">
+    <h2>A negyedik bolygó, Mars</h2>
+    <div class="dobozok">
+      <img src="img/bolygok/mars.jpg" alt="Mars" class="ballrol">
+      <p class="jobbrol">
+        A Mars Szabad szemmel is könnyedén látható az éjszakai égbolton.
+        A római hadistenről nevezték el, de gyakran hívják „vörös bolygónak” is színe miatt, amit a Mars felszínét meghatározó vas-oxid okoz.
+        A Mars a harmadik legnagyobb kőzetbolygó, számos rendkívüli felszíni képződménnyel.
+        átmérője feleakkora mint a Földé ezért felszíne negyede, a tömege kb. nyolcada a Földének. 
+      </p>
+    </div>
+    <h2>Felszíne</h2>
+    <div class="dobozok">
+      <p class="ballrol">A Mars felszíne két jelentősen különböző részre tagolódik. Az Északi medence mely egyben az eddig ismert legnagyobb becsapódási kráter vidékein lávafolyások találhatóak, 
+        míg a déli részen felföldek, ősi becsapódások nyomai találhatók meg. Földi távcsövekkel nézve a Mars szintén két részre tagolható, amelyek fényvisszaverő képessége különböző.<br><br>
+
+        A világosabb területeken vörös vasoxidban gazdag por és homok található. Ezeket régebben marsi földrészeknek hitték, emiatt vannak az ehhez hasonló elnevezések: 
+        Arabia Terra (Arab föld), vagy Amazonis Planitia (Amazon-medence). A sötét részeket tengereknek gondolták, ezért kaptak ilyen neveket: Mare Erytherium, Mare Sirenum 
+        és Aurorae Sinus(mare = tenger, sinus = öböl). A legnagyobb sötét rész, amely a Marson látható a Syrtis Major.
+      </p>
+      <img src="img/bolygok/mars_felszine.jpg" alt="Mars felszín" class="jobbrol">
+    </div>
+    <div class="dobozok">
+      <p class="lentrol">
+        A Marsnak jégsapkája van a pólusokon, amely fagyott vizet és szén-dioxid-ot tartalmaz. Az Olympus Mons, a már nem működő pajzsvulkán,
+        a 27 km-es magasságával a Naprendszer legmagasabb hegye. Az Olympus Mons a
+        Tharsis-régióban található, amelyen még több nagy kialudt vulkán is van. A Marson van a Naprendszer legnagyobb kanyonrendszere, 
+        a Valles Marineris is, mely 4000 km hosszú és 7 km mély.
+      </p>
+    </div>
+    <h2>Légköre</h2>
+    <div class="dobozok">
+      <p class="lentrol">A Mars légköre nagyon ritka: a felszíni légnyomás mindössze 0,75%-a a földinek: 7,5 millibar, szemben a földi 1013 millibarral. 
+        A légkörének 95%-a szén-dioxid, 3%-a nitrogén, 1,6%-a argon és nyomokban van oxigén és víz. 
+        A kis felszíni nyomás következtében a szén-dioxid -125 °C-on kicsapódik szénsavhó formájában. 0 °C feletti hőmérséklet csak ritkán fordul elő, télen az 50.
+        szélességi foktól délre jelentős területeken csökken a hőmérséklet a szén-dioxid fagyáspontja alá. Az ekkor kicsapódó szénsavhó ugyanakkor nyáron elolvad.
+        Igen fontos éghajlati jellemző a nagy napi hőingás.<br><br>
+        
+      </p>
+    </div>
+    <h2>Holdjai</h2>
+    <div class="dobozok">
+      <p class="ballrol">
+        A Marsnak két holdja van, a Phobos és a Deimos. Mindkettő kötött keringésű, 
+        vagyis mindig ugyanazt az oldalukat mutatják a Mars felé. Mivel a Phobos gyorsabban kering a Mars körül, mint ahogy a bolygó 
+        megfordul a saját tengelye körül, az árapályerők lassan de állandóan csökkentik a pályasugarát, emiatt a Phobos majd a Mars felszínébe fog csapódni. 
+        A másik érdekes következmény az, hogy a hold nem keleten kel és nyugaton nyugszik, hanem éppen ellenkezőleg. Nyugatról kelet felé látszik haladni a marsi égbolton. 
+        Mivel a Deimos elég távol van, ezért a pályája egyre növekszik. Kis méretük és erősen elnyúlt pályájuk alapján valószínűleg két befogott aszteroidáról van szó. 
+        Mindkét holdat Asaph Hall fedezte fel 1877-ben és az ókori görög mitológia két figurájáról, Arész hadisten két fiáról nevezték el.
+      </p>
+      <img src="img/bolygok/mars_holdak.png" alt="Mars holdak" class="jobbrol">
+    </div>
+  </div>
+  <footer>
+    <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+    </div>
+    <a href="trixep11.html">trixep11</a>
+    <ul>
+        <li><a href="index.html">Főoldal</a></li>
+        <li><a href="nap.html">A Nap</a></li>
+        <li><a href="bolygok.html">Bolygóink</a></li>
+    </ul>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="szkript.js"></script>
+</body>
+</html>

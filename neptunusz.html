@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <title>Neptunusz</title>
+</head>
+<body class="planets">
+  <div class="load">
+    <div class="rocket">
+      <img src="img/rocket.png" alt="rocket" id="rocket">
+    </div>
+    <div class="wavy">
+      <span style="--i:1;">l</span>
+      <span style="--i:2;">o</span>
+      <span style="--i:3;">a</span>
+      <span style="--i:4;">d</span>
+      <span style="--i:5;">i</span>
+      <span style="--i:6;">n</span>
+      <span style="--i:7;">g</span>
+      <span style="--i:8;">.</span>
+      <span style="--i:9;">.</span>
+      <span style="--i:10;">.</span>
+    </div>
+  </div>
+  <div class="transition transition-1 is-active"></div>
+  <button onclick="topFunction()" id="TopBtn"><span class="full">A lap tetejére</span>
+  <span class="short"><img src="img/up_arrow.png" alt="nyíl_fel"></span></button>
+  <header>
+    <a href="trixep11.html" class="logo">trixep11</a>
+    <div class="close">
+      <div class="ikon"></div>
+      <ul class="navigacio">
+        <li><a href="index.html">Főoldal</a></li>
+        <li><a href="nap.html">A Nap</a></li>
+        <li><div class="dropdown">
+          <button class="dropbtn" onclick="myFunction()">Bolygóink</button>
+          <div class="dropdown-content">
+            <a href="merkur.html" class="first">Merkúr</a>
+            <a href="venusz.html">Vénusz</a>
+            <a href="fold.html">Föld</a>
+            <a href="mars.html">Mars</a>
+            <a href="jupiter.html">Jupiter</a>
+            <a href="szaturnusz.html">Szaturnusz</a>
+            <a href="uranusz.html">Uránusz</a>
+            <a href="neptunusz.html" class="dropactive last">Neptunusz</a>
+          </div>
+        </div></li>
+      </ul>
+    </div>
+  </header>
+  <section id="sectionone" class="screen">
+    <div id="scene">
+      <div data-depth="0.1" class="bg">
+        <img src="img/background.jpg" alt="háttér">
+      </div>
+      <div data-depth="0.2" class="rock1">
+        <img src="img/rock.png" alt="">
+      </div>
+      <div data-depth="1.2" class="bolygo">
+        <img src="img/bolygok/neptunerajz.png" alt="bolygó">
+      </div>
+      <div data-depth="0.1" class="text">
+        <h1>neptunusz</h1>
+      </div>
+      <div data-depth="0.4" class="mid">
+        <img src="img/mid.png" alt="közép_kép">
+      </div>
+      <div data-depth="0.1" class="fore">
+        <img src="img/foreground.png" alt="oldal_kép">
+      </div>
+    </div>
+  </section>
+  <div class="sec3">
+    <h2>A nyolcadik bolygó, Neptunusz</h2>
+    <div class="dobozok">
+      <img src="img/bolygok/neptunusz.jpg" alt="Neptunusz" class="ballrol">
+      <p class="jobbrol">A Neptunuszt az Uránusz mozgásában megfigyelt változások alapján Johann Galle fedezte fel 1846-ban.
+        A Neptunusz a nevét az egyik legősibb római istenről kapta. A provinciákban a helyi víz- és tengeristennel tartották azonosnak.
+        Eddig a Neptunuszt csak egyetlen űrszonda, a Voyager-2 látogatta meg 1989. augusztus 25-én, amikor elrepült a közvetlen közelében.
+        A Neptunusz külső bolygó, a legkülső a Naprendszerben. 30-szor messzebb van a Naptól, mint a Föld, pályája majdnem kör alakú. 
+        A legkisebb óriásbolygó, nagyon hasonlít az Uránuszhoz.
+      </p>
+    </div>
+    <h2>Keringése és forgása</h2>
+    <div class="dobozok">
+      <p class="lentrol">A Neptunusz átlagos keringési távolsága 4,5 milliárd km (30,1 CsE), egy teljes fordulatot 164,79 év alatt tesz meg
+        a Nap körül.[4] Pályájának excentricitása 0,00858587, keringési síkja 1,77°-os szöget zár be az ekliptikával. 
+        Tengelyferdesége 28,32°, ami hasonló a Föld, vagy a Mars tengelyferdeségéhez,
+        így a két bolygóhoz hasonló évszakai is vannak, habár ezek a hosszú keringési idő miatt jóval hosszabbak, 
+        mint a Földön vagy a Marson. Sziderikus forgási periódusa 15,97 óra, de a többi gázbolygóhoz hasonlóan a 
+        különböző szélességi körökön eltérő idő alatt fordul meg. Az egyenlítői régiókban 18 óráig tart egy nap, 
+        míg a sarkvidékeken csak 12 óráig. Keringési rezonanciában van a Pluto törpebolygóval:
+        Míg a Neptunusz háromszor kerüli meg a Napot, addig a Pluto kétszer.
+        </p>
+    </div>
+    <h2>Felszíne</h2>
+    <div class="dobozok">
+      <p class="ballrol" style="padding-right: 0;">Mint gáz-óriás (vagy jég óriás), a Neptunusznak nincs szilárd felülete.
+        Valójában a kék-zöld lemez, amit az évek során a fotókban láttunk, valójában egy kicsit illúzió.
+        Amit látunk, valójában a nagyon mély gázfelhők csúcsa, ami viszont átadja a helyet a víznek és más olvasztott
+        fagyoknak, amelyek egy szilikát kőzetből és nikkel-vas keverékből álló, körülbelül Föld-méretű mag fölé esnek.
+        Ha valaki megpróbálna állni a Neptunuszon, akkor a gáz-halmazállapotú rétegekbe süllyedne.</p>
+    </div>
+    <h2>Légköre - Belső Szerkezete</h2>
+    <div class="dobozok">
+      <p class="jobbrol" style="padding-left: 0;">A felhőzet felszínén sötét foltok, légköri viharok láthatók, amelyek kisebb sebességgel haladnak,
+        mint a környező légkör. Ilyen vihar pl. a 10 000 km méretű Nagy Sötét Folt. Egyes felhőalakulatok csak néhány percen át maradnak fenn.
+        Ezek a melegebb rétegekből bukkannak elő, majd lehűlnek és alámerülnek. A szelek sebessége nagy, és a bolygó forgásához képest különféle irányokban fújnak.
+       A Neptunusznak a Földéhez hasonlóan erős mágneses tere van. A mágneses tengely és a forgástengely 47 fokos szöget zár be egymással,
+        valamint a mágneses tengely nem megy át a bolygó középpontján.</p>
+    </div>
+  </div>
+  <footer>
+    <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+    </div>
+    <a href="trixep11.html">trixep11</a>
+    <ul>
+        <li><a href="index.html">Főoldal</a></li>
+        <li><a href="nap.html">A Nap</a></li>
+        <li><a href="bolygok.html">Bolygóink</a></li>
+    </ul>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="szkript.js"></script>
+</body>
+</html>

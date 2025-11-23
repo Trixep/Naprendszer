@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <title>Jupiter</title>
+</head>
+<body class="planets">
+  <div class="load">
+    <div class="rocket">
+      <img src="img/rocket.png" alt="rocket" id="rocket">
+    </div>
+    <div class="wavy">
+      <span style="--i:1;">l</span>
+      <span style="--i:2;">o</span>
+      <span style="--i:3;">a</span>
+      <span style="--i:4;">d</span>
+      <span style="--i:5;">i</span>
+      <span style="--i:6;">n</span>
+      <span style="--i:7;">g</span>
+      <span style="--i:8;">.</span>
+      <span style="--i:9;">.</span>
+      <span style="--i:10;">.</span>
+    </div>
+  </div>
+  <div class="transition transition-1 is-active"></div>
+  <button onclick="topFunction()" id="TopBtn"><span class="full">A lap tetejére</span>
+  <span class="short"><img src="img/up_arrow.png" alt="nyíl_fel"></span></button>
+  <header>
+    <a href="trixep11.html" class="logo">trixep11</a>
+    <div class="close">
+      <div class="ikon"></div>
+      <ul class="navigacio">
+        <li><a href="index.html">Főoldal</a></li>
+        <li><a href="nap.html">A Nap</a></li>
+        <li><div class="dropdown">
+          <button class="dropbtn" onclick="myFunction()">Bolygóink</button>
+          <div class="dropdown-content">
+            <a href="merkur.html" class="first">Merkúr</a>
+            <a href="venusz.html">Vénusz</a>
+            <a href="fold.html">Föld</a>
+            <a href="mars.html">Mars</a>
+            <a href="jupiter.html" class="dropactive">Jupiter</a>
+            <a href="szaturnusz.html">Szaturnusz</a>
+            <a href="uranusz.html">Uránusz</a>
+            <a href="neptunusz.html" class="last">Neptunusz</a>
+          </div>
+        </div></li>
+      </ul>
+    </div>
+  </header>
+  <section id="sectionone" class="screen">
+    <div id="scene">
+      <div data-depth="0.1" class="bg">
+        <img src="img/background.jpg" alt="háttér">
+      </div>
+      <div data-depth="0.2" class="rock1">
+        <img src="img/rock.png" alt="">
+      </div>
+      <div data-depth="1.2" class="bolygo">
+        <img src="img/bolygok/jupiterrajz.png" alt="bolygó">
+      </div>
+      <div data-depth="0.1" class="text">
+        <h1>jupiter</h1>
+      </div>
+      <div data-depth="0.4" class="mid">
+        <img src="img/mid.png" alt="közép_kép">
+      </div>
+      <div data-depth="0.1" class="fore">
+        <img src="img/foreground.png" alt="oldal_kép">
+      </div>
+    </div>
+  </section>
+  <div class="sec3">
+    <h2>Az ötödik bolygó, Jupiter</h2>
+    <div class="dobozok">
+      <img src="img/bolygok/jupiter.png" alt="jupiter" class="ballrol">
+      <p class="jobbrol">A Jupiter a Naprendszer legnagyobb bolygója, átmérője 142 984 km.
+        Látszó szögátmérője a távolságától függően 30 és 50 ívmásodperc között változik. Tömege kétszer akkora, mint a többi bolygóé együttesen. - a Napot és a Holdat leszámítva - a Vénusz utáni legfényesebb égitest (-2 és -2,9 magnitúdó közötti).  
+        Nevét a római mitológia főistenéről kapta, aki az ég, a nappali világosság, a vihar istene, az istenek királya
+        Távcsővel először 1610-ben Galilei vizsgálta, aki felfedezte a Jupiter négy legnagyobb holdját, melyeket azóta felfedezőjük 
+        tiszteletére Galilei-féle holdaknak neveznek.
+        A Jupitert először 1973-ban a Pioneer-10 űrszonda látogatta meg
+      </p>
+    </div>
+    <h2>Felszíne, Légköre</h2>
+    <div class="dobozok">
+      <p class="ballrol">A jupiternek nincs szilárd felszíne.
+        A látható gomolygó felhőréteg alatt kb. 
+        1000 km vastagságú, hidrogénben gazdag légkör van, lejjebb pedig, ahol a nyomás a földiének a milliószorosát is eléri, a folyékony molekuláris hidrogén
+        25 000 km mély óceánja lehet a modellek szerint.<br><br>
+      </p>
+      <img src="img/bolygok/jupiter_felszine.jpg" alt="jupiter felszine" class="jobbrol">
+    </div>
+    <div class="dobozok">
+      <p class="lentrol">
+        Légköre hidrogénből (90%) és héliumból áll, de nyomokban van benne metán, ammónia és vízgőz is. Sávokba rendeződik, amelyek nagyon gyorsan áramló
+        (100 m/s sebességű) felhők. A különböző színű sávokban eltérő sebességgel fújnak a szelek, ami örvényeket kelt.
+        A Nagy Vörös Folt mintegy 30 000 km hosszú és 14 000 km széles hatalmas anticiklon, amelyet már 300 éve is megfigyeltek. 
+        Többször magába olvasztott kisebb örvényeket.  
+        Az utóbbi években több üstökös és kisbolygó is becsapódott a Jupiterbe. Ezek robbanási nyomának megfigyeléséből a légkörében
+        lévő körülményekre lehetett következtetni.</p>
+    </div>
+    <h2>Holdjai</h2>
+    <div class="dobozok">
+      <img src="img/bolygok/jupiter_holdak.jpg" alt="jupiter holdjai" class="ballrol">
+      <p class="jobbrol">
+        63 holdja ismert. Ezek közül 47-nek az átmérője 
+        csupán 2-9 km közötti. A bolygótól távoli (még 30 millió km-re is előforduló) kis holdak retrográd irányban keringenek, valószínűleg befogott kisbolygók.
+        A Jupiter holdjait Zeusz életében szereplő személyekről nevezték el. A pályáján előtte és mögötte 60 fokkal ezernyi kisbolygó kering
+      </p>
+    </div>
+  </div>
+  <footer>
+    <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+    </div>
+    <a href="trixep11.html">trixep11</a>
+    <ul>
+        <li><a href="index.html">Főoldal</a></li>
+        <li><a href="nap.html">A Nap</a></li>
+        <li><a href="bolygok.html">Bolygóink</a></li>
+    </ul>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="szkript.js"></script>
+</body>
+</html>
